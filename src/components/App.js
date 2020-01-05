@@ -1,9 +1,13 @@
 import React from "react";
+import actions from "../actions";
+import SongList from "./SongList";
 
-class App extends React.Component {
-  render() {
-    return <div>App</div>;
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <SongList />
+    </div>
+  );
+};
 
 export default App;
